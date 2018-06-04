@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" systemVersion="17A277" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -9,11 +13,97 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="inA-Nd-dQK">
+                                <rect key="frame" x="0.0" y="50" width="375" height="200"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dOq-m1-WJv" customClass="XdOrientationButton">
+                                        <rect key="frame" x="0.0" y="0.0" width="187" height="99.5"/>
+                                        <color key="backgroundColor" red="0.58188301320000002" green="0.21569153669999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <state key="normal" title="Button" image="flowShareIcon"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="edgeInsetsStyle">
+                                                <integer key="value" value="0"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="imageTitleSpace">
+                                                <real key="value" value="10"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tzD-QD-9uv" customClass="XdOrientationButton">
+                                        <rect key="frame" x="0.0" y="100.5" width="187" height="99.5"/>
+                                        <color key="backgroundColor" red="0.58188301320000002" green="0.21569153669999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <state key="normal" title="Button" image="flowShareIcon"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="edgeInsetsStyle">
+                                                <integer key="value" value="2"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="imageTitleSpace">
+                                                <real key="value" value="5"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z4l-8S-TxZ" customClass="XdOrientationButton">
+                                        <rect key="frame" x="188" y="0.0" width="187" height="99.5"/>
+                                        <color key="backgroundColor" red="0.58188301320000002" green="0.21569153669999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <state key="normal" title="Button" image="flowShareIcon"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="edgeInsetsStyle">
+                                                <integer key="value" value="1"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="imageTitleSpace">
+                                                <real key="value" value="10"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3NJ-yu-F9f" customClass="XdOrientationButton">
+                                        <rect key="frame" x="188" y="100.5" width="187" height="99.5"/>
+                                        <color key="backgroundColor" red="0.58188301320000002" green="0.21569153669999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <state key="normal" title="Button" image="flowShareIcon"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="edgeInsetsStyle">
+                                                <integer key="value" value="3"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="imageTitleSpace">
+                                                <real key="value" value="5"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="tzD-QD-9uv" firstAttribute="leading" secondItem="inA-Nd-dQK" secondAttribute="leading" id="0tV-yM-gpE"/>
+                                    <constraint firstAttribute="bottom" secondItem="3NJ-yu-F9f" secondAttribute="bottom" id="2JJ-mu-pht"/>
+                                    <constraint firstAttribute="height" constant="200" id="2QO-74-VZd"/>
+                                    <constraint firstItem="3NJ-yu-F9f" firstAttribute="top" secondItem="z4l-8S-TxZ" secondAttribute="bottom" constant="1" id="3tE-ug-aR7"/>
+                                    <constraint firstItem="z4l-8S-TxZ" firstAttribute="leading" secondItem="dOq-m1-WJv" secondAttribute="trailing" constant="1" id="Bdc-co-mgp"/>
+                                    <constraint firstItem="3NJ-yu-F9f" firstAttribute="width" secondItem="dOq-m1-WJv" secondAttribute="width" id="Cjc-Ln-st0"/>
+                                    <constraint firstItem="dOq-m1-WJv" firstAttribute="leading" secondItem="inA-Nd-dQK" secondAttribute="leading" id="Dv7-YS-tn1"/>
+                                    <constraint firstItem="tzD-QD-9uv" firstAttribute="width" secondItem="dOq-m1-WJv" secondAttribute="width" id="GOV-X0-PnR"/>
+                                    <constraint firstItem="z4l-8S-TxZ" firstAttribute="height" secondItem="dOq-m1-WJv" secondAttribute="height" id="Kqz-eN-B85"/>
+                                    <constraint firstAttribute="trailing" secondItem="3NJ-yu-F9f" secondAttribute="trailing" id="U3W-Ly-Dxq"/>
+                                    <constraint firstItem="z4l-8S-TxZ" firstAttribute="top" secondItem="inA-Nd-dQK" secondAttribute="top" id="YqA-4h-gzQ"/>
+                                    <constraint firstItem="z4l-8S-TxZ" firstAttribute="width" secondItem="dOq-m1-WJv" secondAttribute="width" id="fFy-Ln-H6H"/>
+                                    <constraint firstAttribute="trailing" secondItem="z4l-8S-TxZ" secondAttribute="trailing" id="iOe-8t-KDE"/>
+                                    <constraint firstItem="3NJ-yu-F9f" firstAttribute="height" secondItem="dOq-m1-WJv" secondAttribute="height" id="jjt-ey-Q0f"/>
+                                    <constraint firstAttribute="bottom" secondItem="tzD-QD-9uv" secondAttribute="bottom" id="kiy-a4-brz"/>
+                                    <constraint firstItem="tzD-QD-9uv" firstAttribute="top" secondItem="dOq-m1-WJv" secondAttribute="bottom" constant="1" id="olG-aG-PLr"/>
+                                    <constraint firstItem="dOq-m1-WJv" firstAttribute="top" secondItem="inA-Nd-dQK" secondAttribute="top" id="oqL-wt-7s1"/>
+                                    <constraint firstItem="tzD-QD-9uv" firstAttribute="height" secondItem="dOq-m1-WJv" secondAttribute="height" id="tsd-NJ-Xo9"/>
+                                    <constraint firstItem="3NJ-yu-F9f" firstAttribute="leading" secondItem="tzD-QD-9uv" secondAttribute="trailing" constant="1" id="zwt-U0-blJ"/>
+                                </constraints>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="inA-Nd-dQK" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="5Dq-hj-uAV"/>
+                            <constraint firstItem="inA-Nd-dQK" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="30" id="ZbE-QT-iFc"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="inA-Nd-dQK" secondAttribute="trailing" id="waT-6G-WRl"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
@@ -21,4 +111,7 @@
             </objects>
         </scene>
     </scenes>
+    <resources>
+        <image name="flowShareIcon" width="46" height="46"/>
+    </resources>
 </document>

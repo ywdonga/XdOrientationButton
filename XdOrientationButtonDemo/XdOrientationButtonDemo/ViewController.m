@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "XdOrientationButton.h"
 
 @interface ViewController ()
 

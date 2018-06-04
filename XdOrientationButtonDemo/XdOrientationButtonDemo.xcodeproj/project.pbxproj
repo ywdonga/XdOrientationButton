@@ -14,6 +14,7 @@
 		0485576E20C4E57200C5E1FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0485576C20C4E57200C5E1FE /* LaunchScreen.storyboard */; };
 		0485577120C4E57200C5E1FE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0485577020C4E57200C5E1FE /* main.m */; };
 		0485577C20C4E58D00C5E1FE /* XdOrientationButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 0485577A20C4E58C00C5E1FE /* XdOrientationButton.m */; };
+		0485578220C4EDE800C5E1FE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0485578120C4EDE800C5E1FE /* UIKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		0485577020C4E57200C5E1FE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0485577A20C4E58C00C5E1FE /* XdOrientationButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XdOrientationButton.m; sourceTree = "<group>"; };
 		0485577B20C4E58C00C5E1FE /* XdOrientationButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XdOrientationButton.h; sourceTree = "<group>"; };
+		0485578120C4EDE800C5E1FE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +38,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0485578220C4EDE800C5E1FE /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -47,6 +50,7 @@
 			children = (
 				0485576020C4E57000C5E1FE /* XdOrientationButtonDemo */,
 				0485575F20C4E57000C5E1FE /* Products */,
+				0485578020C4EDE800C5E1FE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -78,11 +82,19 @@
 		0485577920C4E58C00C5E1FE /* XdOrientationButton */ = {
 			isa = PBXGroup;
 			children = (
-				0485577A20C4E58C00C5E1FE /* XdOrientationButton.m */,
 				0485577B20C4E58C00C5E1FE /* XdOrientationButton.h */,
+				0485577A20C4E58C00C5E1FE /* XdOrientationButton.m */,
 			);
 			name = XdOrientationButton;
 			path = ../../../../Demo/XdButton/XdButton/XdOrientationButton;
+			sourceTree = "<group>";
+		};
+		0485578020C4EDE800C5E1FE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0485578120C4EDE800C5E1FE /* UIKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
